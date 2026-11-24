@@ -14,7 +14,7 @@ is MIT. This directory is AGPL; see `LICENSE`. Only `rp_tap.h` (MIT) is shared.
 
 Builds chiaki-ng v1.10.1 (library only) into `~/.cache/moonglide/chiaki-tap/` and installs
 `~/.local/share/moonglide/bin/moonglide-chiaki-tap`. Needs git, cmake, ninja, curl, unzip, a C
-compiler and the openssl/opus/pulse dev headers; libevent-dev and libsdl2-dev are unpacked
+compiler, `python3-protobuf` and the openssl/opus/pulse dev headers; libevent-dev and libsdl2-dev are unpacked
 privately if missing (`apt-get download`, no root).
 
 ## Run
